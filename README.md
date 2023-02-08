@@ -1,2 +1,4 @@
 # logger
- A simple logger for projects
+ A simple professional logger for projects
+
+soon...
