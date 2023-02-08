@@ -7,7 +7,7 @@
 * $test = new System_Logger();
 * $test->test();
 * Or static
-* System_Logger::test();
+* System_Logger::test(); 
 */
 spl_autoload_register(function ($class) {
     require_once str_replace('\\', '/', __DIR__) . '/' . str_replace('_', '/', $class)  . '.php'; 

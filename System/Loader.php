@@ -2,7 +2,7 @@
 
 class System_Loader {
     
-    protected static $indexPath;
+    protected static $indexPath; 
 
     public static function setIndexPath($indexPath) {
         self::$indexPath = $indexPath;

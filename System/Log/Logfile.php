@@ -1,6 +1,6 @@
 <?php
 
-class System_Log_Logfile implements System_Log_LogInterface
+class System_Log_Logfile implements System_Log_LogInterface 
 {
 
     public function prepare($args) {
@@ -10,7 +10,6 @@ class System_Log_Logfile implements System_Log_LogInterface
         $vars['filename'] = isset($args[2]) ? 'log_' . $args[2] : 'log_' . date('Y-m-d') . '.txt';
         return $vars;
     }
-
     public function save($vars) {
         $path = $vars['path'];
         $filename = $vars['filename'];

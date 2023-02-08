@@ -4,7 +4,7 @@ class System_Log_Log {
     protected $handle;
     protected $vars;
 
-    function __construct(System_Log_LogInterface $handle) {
+    function __construct(System_Log_LogInterface $handle) { 
         $this->handle = $handle;
     }
 

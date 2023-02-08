@@ -2,7 +2,7 @@
 
 class System_Log_Logger
 {
-    protected static $dateFormat = 'd-m-Y';
+    protected static $dateFormat = 'd-m-Y'; 
 
     // Simplelelog
     public static function simplelog($type = 'DEBUG', $msg = '', $path = '/log/simplelog/', $ip = false) {
